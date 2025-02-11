@@ -14,3 +14,14 @@ variable "aws_environment" {
   type = string
   
 }
+
+variable "vpc_cidr" {
+  description = "The CIDR block for the VPC."
+  type = string
+}
+
+variable "public_subnet_az1_cidr_block" {
+  description = "The CIDR block for the subnet."
+  type = string
+  
+}
